@@ -1,0 +1,5 @@
+slackclient
+slackeventsapi>=0.1
+slackbot>=0.5.6
+slack
+requests
