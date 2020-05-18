@@ -34,7 +34,6 @@ class User:
                 elif payload['profile']['peopleManagerType'] == 'Executive':
                     return self.user
                 else:
-                    print(self.user)
                     self.user = payload['profile']['managerEmail']
 
 user = User(email)
